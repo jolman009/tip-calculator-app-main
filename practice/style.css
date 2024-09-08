@@ -1,0 +1,161 @@
+
+html {
+background-color: hsl(185, 41%, 84%);
+
+}
+
+* button {
+    width: 95px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:hsl(183, 100%, 15%);
+ color:#fff;
+}
+
+
+
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-top: 200px;
+
+}
+
+
+.wrapper {
+	display: grid;
+        padding-top: 20px;
+		grid-template-columns: repeat(4, [col] 230px ) ;
+		grid-template-rows: repeat(3, [row] auto  );
+		background-color: hsl(0, 0%, 100%);
+       
+        width:900px;
+}
+
+
+
+.box {
+    background-color:hsl(186, 14%, 43%);
+		color: #fff;
+		
+		padding: 10px;
+        height: 120px;
+        width: 400px;
+        justify-content: center;
+  align-content: center;
+       
+
+}  
+
+.box .box {
+	background-color: #ccc;
+		color: hsl(172, 67%, 45%);
+     
+      
+}
+
+.a {
+    grid-column: col / span 2;
+    grid-row: row;
+    background-color: #ffffff;
+    color:hsl(186, 14%, 43%);
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 10px;
+   
+}           
+
+.b {
+    grid-column: col 3 / span 2;
+    grid-row: row;
+    background-color: hsl(183, 100%, 15%);
+}
+
+
+.c {
+    grid-column: col 1 / span 2;
+    grid-row: row 2;
+
+    background-color: #f8f0f0;
+    color: #000;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+  align-content: center;
+
+}
+
+.five, .two-five, .five-ten, .ten, .five-o, .custom  {
+   margin-left: 25%;
+   margin-top: 10px;
+   font-size: 18px;
+   font-family: "Space Mono", monospace;
+}
+
+.d {
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
+    background-color: hsl(183, 100%, 15%);
+}
+
+
+.e {
+    
+    grid-column: col 1  ;
+    grid-row: row 3;
+    background-color: #fff;
+    color:hsl(186, 14%, 43%);
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.f {
+    grid-column: col 3 / span 2;
+    grid-row: row 3;
+    background-color: hsl(183, 100%, 15%);
+}
+
+input#fbill {
+    width: 375px;
+    height: 40px;
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: 5px;
+    color: hsl(183, 100%, 15%);
+}
+
+input#fname {
+    width: 375px;
+    height: 40px;
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: 5px;
+    color: hsl(183, 100%, 15%);
+}
+
+input#fset {
+    width: 375px;
+    height: 40px;
+    margin-left: 20px;
+margin-top: 30px;
+background-color: hsl(185, 41%, 84%);
+font-size: 24px;
+font-weight: 600;
+color:hsl(183, 100%, 15%);
+font-family: "Space Mono", monospace;
+border-radius: 5px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
